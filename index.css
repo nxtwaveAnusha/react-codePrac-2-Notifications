@@ -1,0 +1,72 @@
+main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 35px;
+  text-align: center;
+}
+.msg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+.inform-msg {
+  background-color: #0b69ff;
+  border-radius: 5px;
+  border-width: 0px;
+  width: 50%;
+  padding: 10px;
+  font-family: 'Roboto';
+  display: flex;
+  margin: 10px;
+}
+.success-msg {
+  background-color: #2dca73;
+  border-radius: 5px;
+  border-width: 0px;
+  width: 50%;
+  padding: 10px;
+  font-family: 'Roboto';
+  display: flex;
+  margin: 10px;
+}
+.warning-msg {
+  background-color: #ffb800;
+  border-radius: 5px;
+  border-width: 0px;
+  width: 50%;
+  padding: 10px;
+  font-family: 'Roboto';
+  display: flex;
+  margin: 10px;
+}
+.danger-msg {
+  background-color: #ff0b37;
+  border-radius: 5px;
+  border-width: 0px;
+  width: 50%;
+  padding: 10px;
+  font-family: 'Roboto';
+  display: flex;
+  margin: 10px;
+}
+.imgSize {
+  width: 20px;
+  margin: 5px;
+}
+.message {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin: 5px;
+  text-align: center;
+}
